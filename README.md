@@ -43,14 +43,17 @@ The best touch interface is sometimes no touch at all. Using sensors and speech 
 
 #### Speech
 
+The speech input aims to provide an alternative input method for web applications, without using a keyboard or other physical device.
+
 #### Device motion
 
 Device motion is made possible by a combination of always-on sensors (typically an accelerometer, a magnetometer, and a gyroscope) that tell us how a computer is moving through the space around it. The ability of these sensors to provide precise information about the movement of a device opens up new design possibilities for applications. From adjusting the user interface based on orientation changes to using three dimensional motion as input, to combining device motion with location detection, video cameras, and light sensor capabilities, there's no shortage of interesting interface designs made possible by Device Motion. [Re-imagining Apps for Ultrabook]
 
 Device motion sensors can tell us a lot about how a device is moving in someone’s hands but they can also clue us in to environmental changes as well.
 
-#### User Motion
+#### Video Motion
 
+Video motion detection is a way of defining user activity in a scene by analyzing image data and differences in a series of images.
 
 ### Adaptive Web Components
 
@@ -65,6 +68,8 @@ Mobile network speeds have gone up but this doesn't help much as page load times
 Web components allow you to use custom HTML elements in the browser. You can wrap up a simple element or an entire application within an HTML element. Web components allows you to build Web applications in a modular, reusable, and encapuslated way.
 
 ## Evaluation and experiments 
+
+There has been made a serie of experiments on both adaptive input methods and components. All of them have been released as open source reusable modules on GitHub.
 
 ### Input methods
 
