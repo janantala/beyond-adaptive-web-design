@@ -28,15 +28,15 @@ Web browsers on TVs are actually really good but the input is terrible so no one
 
 We also have wearable computers. The current Google Glass interface is limited to a floating rectangle above head. We don’t have full range of motion and, as a result, no spatial cues or depth in the interface.
 
-There is no one true input for the Web. We have to contend with fingers, mice, keyboards, voice and more.
+There is no one true input for the Web. We have to contend with fingers, mice, keyboards, voice and more. The challenge for us over the next few years is not designing for one input but many.
 
 ### Touch
 
-Touch is no longer just isolated to smartphones and tablets. Every desktop design has to be touch-friendly now.
+Touch is no longer just isolated to smartphones and tablets. Many big sreens in laptops or desktops nowadays are touch capable. Every desktop design has to be touch-friendly now.
 
-The optimal touch target size is 7mm, based on the average size of human finger tips and pads. CSS2.1 defines a pixel as 1/96 of an inch. So 7mm should be 30pixels. However, things aren’t so easy because of dynamic viewports. [Designing for Touch]
+The optimal touch target size is 7mm, based on the average size of human finger tips and pads. CSS2.1 defines a pixel as 1/96 of an inch. So 7mm should be 30pixels [Designing for Touch]. However, things aren’t so easy because of dynamic viewports. It means that input elemtents in website have to be usually bigger.
 
-The best touch interface is sometimes no touch at all. Using sensors and speech is the next frontier for interaction design. This is no longer science fiction but reality. The challenge for us over the next few years is not designing for one input but many.
+The best touch interface is sometimes no touch at all. We can use sensors and speech input which is the next frontier for interaction design. This is no longer science fiction but reality.
 
 ### Speech
 
