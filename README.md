@@ -2,30 +2,25 @@
 
 ## Abstract
 
-Mobile device penetration grows rapidly and it brings not only different display sizes with new human interaction methods, but also new kinds of internet connection. So it is neccessary to adapt web pages for different devices and new interaction methods. In our work, we follow ,,Mobile First'' and ,,progressive enhancement'' design, which emphasizes a great performance on mobile devices and later profit on classical desktop computers. We present a new way of web components adaptation based on a device features and external conditions in our work and new possibilities of interaction with web application based on speech recognition, motion or device rotation. The evaluation of the proposed method of adaptation shows slightly better results than original approach.
+Mobile device penetration grows rapidly and it brings not only different display sizes with new human interaction methods, but also new kinds of internet connection. So it is neccessary to adapt web pages for different devices and new interaction methods. In our work, we follow ,,Mobile First'' and ,,Progressive Enhancement'' design, which emphasizes a great performance on mobile devices and later profit on classical desktop computers. We present a new way of web components adaptation based on a device features and external conditions in our work and new possibilities of interaction with web application based on speech recognition, motion or device rotation. The evaluation of the proposed method of adaptation shows slightly better results than original approach.
 
 ## Introduction
 
-The Web is continually evolving and we need to evolve with it.
+The Web is continually evolving and we need to evolve with it. It used to be easier to manage browsers when there were just a few of them on the desktop. Today we not only have to deal with a wide range of desktop browsers but mobile devices, tablets, televisions, weareable devices and more. Even for the average web site things have changed a lot over four years: browser share, operating systems, screen resolutions, and more [User Interface 17].
 
-It used to be easier to manage browsers when there were just a few of them on the desktop. Today we not only have to deal with a wide range of desktop browsers but mobile devices, tablets, and more. Even for the average site things have changed a lot over four years: browser share, operating systems, screen resolutions, and more. [User Interface 17]
+The basic approach how to provide an optimal viewing experience is to use Responsive web design which comes with fluid grids, flexible images and CSS3 media queries [Responsive Web Design].
+While creating flexible layouts is important, there’s a whole lot more that goes into truly exceptional adaptive web experiences. The principles of Adaptive Design are: ubiquity, flexibility, performance, enhancement and future-friendliness [Beyond Squishy: The Principles of Adaptive Design].
 
-While creating flexible layouts is important, there’s a whole lot more that goes into truly exceptional adaptive web experiences. This session will introduce the Principles of Adaptive Design: ubiquity, flexibility, performance, enhancement and future-friendliness. [Beyond Squishy: The Principles of Adaptive Design]
+The power of the web is its ubiquity. No one knows what the landscape is going to look like in a couple years, but there’s a good chance the new devices in a few years from now will have access to the web. Because of this, we need to preserve and embrace the web’s ubiquity. This requires us to deliver full web experiences regardless of how and where people access the web. 
+It's important to continue creating flexible interfaces that can adapt to any screen size. Performance often takes a back seat to everything else. Progressive enhancement, feature detection and many other techniques allow us to build up a core experience that allow us to support more devices while still optimizing for the the best of the best. The key aspect of Future Friendly thinking is to acknowledge and embrace unpredictability. Nobody knows where things are going but the one thing we can count on is the evolution.
 
-The power of the web is its ubiquity. No one knows what the landscape is going to look like in a couple years, but there’s a damn good chance the gadgets sitting underneath Christmas trees a few years from now will have access to the web.
-Because of this, we need to preserve and embrace the web’s ubiquity. This requires us to deliver full web experiences regardless of how people access the web.
+Adaptive web design is essentially progressive enhancement at its core, but it’s being applied to a much larger, more diverse landscape than when the term progressive enhancement was first coined. We now have Web-enabled smartphones, tablets, e-readers, netbooks, watches, TVs, phablets, notebooks, game consoles and more. We also have many types of internet connections with different qualities.
 
-Continue creating flexible interfaces that can adapt to any screen size. Performance often takes a back seat to everything else. Progressive enhancement, feature detection and many other techniques allow us to build up a core experience that allow us to support more devices while still optimizing for the the best of the best.
+Responsive design is one technique in an adaptive web design strategy. Creating flexible layouts is extremely important, but it’s just one piece of the puzzle. It’s also important to consider a whole host of other factors as well: ergonomics, touch capability and other input methods, internet connection, geolocation and many other features that can be detected.
 
-The key aspect of Future Friendly thinking is to acknowledge and embrace unpredictability. Again, nobody knows where things are going and the one thing we can count on is change.
+We consider “adaptive web design” as a synonym with creating a single Web experience that modifies based on the capabilities of the device and browser. Website can access superpowers in devices.
 
-Adaptive web design is essentially progressive enhancement at its core, but it’s being applied to a much larger, more diverse landscape than when the term progressive enhancement was first coined. We now have Web-enabled smartphones, tablets, e-readers, netbooks, watches, TVs, phablets, notebooks, game consoles, and a whole bunch more.
-
-Responsive design is one technique in an adaptive web design strategy. Creating flexible layouts is extremely important, but it’s just one piece of the puzzle. It’s also important to consider a whole host of other factors as well: ergonomics, touch capability, geolocation, SVG support, and the myriad other features that can be detected.
-
-I’d personally like to see “adaptive design” become synonymous with creating a single Web experience that modifies based on the capabilities of the device and browser. Website can access superpowers in devices.
-
-### Adaptive Input methods
+## Adaptive Input methods
 
 Web browsers on TVs are actually might better than you might think but the input is terrible so no one uses them. Input is much more important to interface design than screen size. The input defines what a design needs to do in order to accomplish a task. At every form factor we see touch, cursors, and keyboards available for input. [Adaptive Input]
 
@@ -33,7 +28,7 @@ The current Glass interface is limited to a floating rectangle above your head. 
 
 There is no one true input for the Web. We have to contend with fingers, mice, keyboards, and more.
 
-#### Touch
+### Touch
 
 Touch is no longer just isolated to smartphones and tablets. Every desktop design has to be touch-friendly now.
 
@@ -41,21 +36,21 @@ The optimal touch target size is 7mm, based on the average size of human finger 
 
 The best touch interface is sometimes no touch at all. Using sensors and speech is the next frontier for interaction design. This is no longer science fiction but reality. The challenge for us over the next few years is not designing for one input but many.
 
-#### Speech
+### Speech
 
 The speech input aims to provide an alternative input method for web applications, without using a keyboard or other physical device.
 
-#### Device motion
+### Device motion
 
 Device motion is made possible by a combination of always-on sensors (typically an accelerometer, a magnetometer, and a gyroscope) that tell us how a computer is moving through the space around it. The ability of these sensors to provide precise information about the movement of a device opens up new design possibilities for applications. From adjusting the user interface based on orientation changes to using three dimensional motion as input, to combining device motion with location detection, video cameras, and light sensor capabilities, there's no shortage of interesting interface designs made possible by Device Motion. [Re-imagining Apps for Ultrabook]
 
 Device motion sensors can tell us a lot about how a device is moving in someone’s hands but they can also clue us in to environmental changes as well.
 
-#### Video Motion
+### Video Motion
 
 Video motion detection is a way of defining user activity in a scene by analyzing image data and differences in a series of images.
 
-### Adaptive Web Components
+## Adaptive Web Components
 
 One of the most common critiques against responsive Web design is that it creates large (file size) Web sites, thereby slowing Web pages down. But we can make responsive sites perform well, we just have to the work to make it possible. [20MB Responsive Websites]
 
