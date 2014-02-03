@@ -36,11 +36,13 @@ Touch is no longer just isolated to smartphones and tablets. Many big sreens in 
 
 The optimal touch target size is 7mm, based on the average size of human finger tips and pads. CSS2.1 defines a pixel as 1/96 of an inch. So 7mm should be 30pixels [Designing for Touch]. However, things aren’t so easy because of dynamic viewports. It means that input elemtents in website have to be usually bigger.
 
-The best touch interface is sometimes no touch at all. We can use sensors and speech input which is the next frontier for interaction design. This is no longer science fiction but reality.
+The best touch interface is sometimes no touch at all. We can use sensors and speech input which is the next frontier for interaction design.
 
 ### Speech
 
-The speech input aims to provide an alternative input method for web applications, without using a keyboard or other physical device.
+The speech input aims to provide an alternative input method for web applications, without using a keyboard or other physical device. This is no longer science fiction but reality. Many companies rely on it and deploy it to the modern devices and software. It could be also benefitial for older or disabled users [Speech Recognition and Alternative Interfaces] and can easily become the next big thing.
+
+We can now use speech recognition to take a full control of the web site as we have access to continuous recognition stream. We don't need another input methods at all. A speech feedback for user interaction is also important and we can use speech synthesis feature for it.
 
 ### Device motion
 
