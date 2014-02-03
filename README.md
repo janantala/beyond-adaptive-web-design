@@ -22,11 +22,13 @@ We consider “adaptive web design” as a synonym with creating a single Web ex
 
 ## Adaptive Input methods
 
-Web browsers on TVs are actually might better than you might think but the input is terrible so no one uses them. Input is much more important to interface design than screen size. The input defines what a design needs to do in order to accomplish a task. At every form factor we see touch, cursors, and keyboards available for input. [Adaptive Input]
+As we have many types of devices with web access we also have to adapt input methods for them. It is not just about screen sizes, but many displays also have touch capabilities.
 
-The current Glass interface is limited to a floating rectangle above your head. You don’t have full range of motion and, as a result, no spatial cues or depth in the interface.
+Web browsers on TVs are actually really good but the input is terrible so no one uses them. Input is much more important to interface design than screen size. The input defines what a design needs to do in order to accomplish a task [Adaptive Input].
 
-There is no one true input for the Web. We have to contend with fingers, mice, keyboards, and more.
+We also have wearable computers. The current Google Glass interface is limited to a floating rectangle above head. We don’t have full range of motion and, as a result, no spatial cues or depth in the interface.
+
+There is no one true input for the Web. We have to contend with fingers, mice, keyboards, voice and more.
 
 ### Touch
 
