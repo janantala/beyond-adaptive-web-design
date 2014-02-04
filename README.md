@@ -73,17 +73,17 @@ There have been made series of experiments on both adaptive input methods and we
 
 ### Input methods
 
-### Components
+### Web Components
 
-So what are we to do? This is actually a great opportunity to utilize conditional loading to serve the best experience for the right context.
+There are a lot of commonly used web services that produce unnecessary traffic. Elements like videos or maps are a common part of the most web sites. All of them produces many requests even a user doesn't want to watch the video or browse the map. There are also native mobile application for that services with better perfomance. So what can we to do? This is actually a great opportunity to utilize conditional loading to serve the best experience for the right context.
 
-A static default. We can then use Javascript to detect when it’s appropriate to introduce the embedded map. After all, embedded maps work quite well when there’s enough room to maneuver within them. We can simply replace the default experience with the iframe map when enough screen real estate becomes available.
+We use the Mobile First principe so we make a default elemet static and pull in a static image. This approach saves a lot of web traffic. We can then detect when it’s appropriate to download the embedded map or to launch the native mobile application.
 
-By default we can simply include a text link to the location on the Google Maps website. And in case a “View Map” text link isn’t attractive enough for you, we can also use the Static Maps API to pull in a static image of the location.
+Web App -> ![](http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2012/12/13/1355414300656/google-maps-app-008.jpg)
 
-When a user taps the link, most major mobile platforms will fire up the native maps application where the user can have a richer experience. If the native experience is unavailable, the user is simply taken to the Google Maps website, where they receive a dedicated full-screen mapping experience. Either way, it’s a better experience than a cramped embedded map.
+By default we set an anchor to the location of the service website. When a user taps the component, the browser will try to open the native application where they can have a better experience. If the native experience is unavailable, the user is redirected to the service website, where they receive a full-screen experience. However, we don't always want to open the native application. We can download an embedded map or play the video directly after the tap. The user can interact with them directly in the web application so developers have to make a decision between these choices.
 
-This approach works quite well for simple map plotting and even showing groups of locations. However, more interactive mapping requires additional consideration, but even then I’d say that an embedded map still might not make sense. While techniques like adaptive maps might not make sense in every circumstance, it’s a decent baseline.
+This approach works quite well for simple use cases. We can show multiple map types, markers or videos. However, more interactive elements require additional consideration. Even then use of an embedded elements directly still might not make sense because of unnecessary traffic, while adaptive techniques reduces it. We can still replace basic static image with richer elements. Adaptive web componets are a decent baseline.
 
 ## Conclusion
 
