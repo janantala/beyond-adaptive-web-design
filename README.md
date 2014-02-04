@@ -48,7 +48,7 @@ We can now use speech recognition to take a full control of the web site as we h
 
 We can use a lot of sensors in the devices to detect the device motion. It is made possible by a combination of always-on sensors as are an accelerometer a gyroscope, and a magnetometer, that tell us a lot about how a device is moving through the space around it. The ability of these sensors to provide precise information about the movement of a device opens up new design possibilities for web applications [Re-imagining Apps for Ultrabook].
 
-From controlling the user interface based on three dimensional motion as input, to combining device motion with another sensors as are location detection or video cameras, there's a lot of interesting interface designs made possible by Device Motion. It depends on us how we use them.
+From controlling the user interface based on three dimensional motion as input, to combining device motion with another sensors as are location detection or video cameras [Combining Acceleration and Gyroscope Data]. There's a lot of interesting interface designs made possible by Device Motion. It depends on us how we use them.
 
 ### Video Motion
 
