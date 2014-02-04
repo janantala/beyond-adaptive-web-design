@@ -58,19 +58,18 @@ We can detect user motion and use it as an alternatove part of input method. We 
 
 ## Adaptive Web Components
 
-One of the most common critiques against responsive Web design is that it creates large (file size) Web sites, thereby slowing Web pages down. But we can make responsive sites perform well, we just have to the work to make it possible. [20MB Responsive Websites]
+One of the most common critiques against responsive Web design is that Web sites have large file size and so they are slowing Web pages down. But we can make responsive sites perform well, we just have to the work to make it possible [20MB Responsive Websites].
 
-We care about mobile performance because people need fast experiences on the Web. There's lot of studies that highlight the importance of speed. More than half of people with a bad loading experience on mobile, won't come back.
-Speed is a feature. You can quantify its impact on the metrics you care about. [High Performance Browser Networking]
+We all should care about page speed and mobile performance because people need fast experiences on the Web. There's lot of studies that highlight the importance of speed. More than half of people with a bad loading experience on mobile, won't come back [High Performance Browser Networking]. 73% of mobile internet users say they've encountered Web pages that are too slow. A 1 second delay can result in a 7% reduction in conversions [Page Speed is Only the Beginning].
+Speed is an esencial part of our strategy and we should care about it. We can quantify its impact on the metrics and track it.
 
-We all should care about page speed. 73% of mobile internet users say they've encountered Web pages that are too slow. A 1 second delay can result in a 7% reduction in conversions.
-Mobile network speeds have gone up but this doesn't help much as page load times tend to plateau as bandwidth increases. Latency is a much bigger contribution to download times. LTE reduces tower latency by several milliseconds but we still need to make a number of connections to get data to your phone. [Page Speed is Only the Beginning]
+There are many different types of internet connections. Mobile network speeds have gone up but this doesn't help much as page load times tend to plateau as bandwidth increases. Latency is a much bigger contribution to download times. LTE reduces tower latency by several milliseconds but we still need to make a number of connections to get data to our phone  [High Performance Browser Networking].
 
-Web components allow you to use custom HTML elements in the browser. You can wrap up a simple element or an entire application within an HTML element. Web components allows you to build Web applications in a modular, reusable, and encapuslated way.
+So what we should do about it? We can create reuseable components and conditionaly load resources. Web components allow us to use custom HTML elements in the browser. We can wrap up a simple element or an entire application logic within an HTML element [Web components]. We can create Web applications in a reusable, modular and encapuslated way.
 
 ## Evaluation and experiments 
 
-There has been made a serie of experiments on both adaptive input methods and components. All of them have been released as open source reusable modules on GitHub.
+There have been made series of experiments on both adaptive input methods and web components. All of them have been released as open source reusable modules and are available on GitHub.
 
 ### Input methods
 
@@ -102,6 +101,7 @@ More changes are coming, new APIs and beyond. What will you do with this new pow
 -   Josh Clark - Designing for Touch. An Event Apart in Seattle, WA 2013
 -   Ilya Grigorik - High Performance Browser Networking, ISBN: 9781449344764 O'Reilly Media, Incorporated. 2013
 -   Peter McLachlan - Page Speed is Only the Beginning. Breaking Development in San Diego CA 2013
+-   Eric Bidelman - Web Components: A Tectonic Shift for Web Development. Google IO 2013 conference, San Francisco, CA, USA
 -   Basson, Sara and Fairweather, Peter G. and Hanson, Vicki L. - Speech Recognition and Alternative Interfaces for Older Users. ACM 2007
 -   Kratz, Sven and Rohs, Michael and Essl, Georg - Combining Acceleration and Gyroscope Data for Motion Gesture Recognition Using Classifiers with Dimensionality Constraints. Proceedings of the 2013 International Conference on Intelligent User Interfaces. 2013
   
