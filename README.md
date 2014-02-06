@@ -88,6 +88,12 @@ But there are many more interesting things we can achieve using speech input. We
 
 #### Gyroscope rotation
 
+We have used device orientation API as alternative control method to web application and built a module which can scroll in website using gyroscope rotation. Developers can use this module as replacement of the global application scroll instead of touch events or mice wheel and also a local element scroll too.
+
+We have access to 3 axis rotation informations which are recalculated every time on device orientation change. We remember starting device orientation and compare it to the current one. Based on this substraction we can make a decision which direction we scroll and how fast. The bigger the orientation difference is, the faster we scroll. 
+
+However some problems have been detected. The biggest one is that browser vendors don't use specification correctly and use own orientation ranges and directions. This causes some scroll issues.
+
 #### Video camera motion
 
 ### Web Components
