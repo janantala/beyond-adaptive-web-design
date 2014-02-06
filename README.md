@@ -96,6 +96,12 @@ However some problems have been detected. The biggest one is that browser vendor
 
 #### Video camera motion
 
+Almost every moder device contains a video camera. This is a great opportunity to introduce video motion to web applications. We can control web sites using motion gestures.
+
+We use a video camera stream and devide it into image frames. Then we can detect a website user in the each frame using a hsv filter. When we compare all pixels in two adjacent frames we get difference points. When we apply this comparision to multiple frames we can calculate a motion vector.
+
+We support 4 direction motion events: swipe from the left to the right, right to left, bottom to top and top to bottom. Using video camera motion we can enhance experience in websites and games. However we need a proper ambient lighting. There can be detection issues in too dark and too light scenes.
+
 ### Web Components
 
 There are a lot of commonly used web services that produce unnecessary traffic. Elements like videos or maps are a common part of the most web sites. All of them produces many requests and the web traffic even the website user doesn't want to watch the video or browse the map. There are also native mobile application for that services with better perfomance. So what can we to do? This is actually a great opportunity to utilize conditional loading to serve the best experience for the right context.
