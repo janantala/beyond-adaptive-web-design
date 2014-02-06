@@ -77,6 +77,19 @@ We have tracked amount of saved web traffic, interest in alternative input metho
 
 Adaptive input methods provide alternative way of web application control and extend current approach. We have been experimenting to control web applications using voice commands, gyroscope motion and video motion.
 
+#### Voice commands
+
+Speech input provides a great opportunity to take a complete control over web application using only voice commands. For this purpose we have used web browser's Speech API for continuous speech recognition and built a configurable and reuseable module. Speech recognition is however currently possible online only.
+
+Using speech recognition we get an utterance string which can be compared to voice commands from our configuration. We use regular expressions for this purpose with attached callback methods. These configurations are bound to utterance watchers and the callback is called when voice command is recognised.
+Regular expressions are benefitial since we can set up a single watcher for dynamical commands where one command can be used for multiple subjects.
+
+But there are many more interesting things we can achieve using speech input. We can even use multiple languages for speech recognition. One of the biggest problems of the voice commands is however incorrect speech recognition. To solve this issue we can conditionalize regular expressions or use uterance error correction.
+
+#### Gyroscope rotation
+
+#### Video camera motion
+
 ### Web Components
 
 There are a lot of commonly used web services that produce unnecessary traffic. Elements like videos or maps are a common part of the most web sites. All of them produces many requests and the web traffic even the website user doesn't want to watch the video or browse the map. There are also native mobile application for that services with better perfomance. So what can we to do? This is actually a great opportunity to utilize conditional loading to serve the best experience for the right context.
