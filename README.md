@@ -69,15 +69,19 @@ So what we should do about it? We can create reuseable components and conditiona
 
 ## Evaluation and experiments 
 
-There have been made series of experiments on both adaptive input methods and web components. All of them have been released as open source reusable modules and are available on GitHub.
+There have been made series of experiments on both adaptive input methods and web components. The goal has been to create reusable modules and components every developer can include into their web application. All of them have been released as open source and are available on GitHub.
+
+We have tracked amount of saved web traffic, interest in alternative input methods and received a lot of feedback from the community.
 
 ### Input methods
 
+Adaptive input methods provide alternative way of web application control and extend current approach. We have been experimenting to control web applications using voice commands, gyroscope motion and video motion.
+
 ### Web Components
 
-There are a lot of commonly used web services that produce unnecessary traffic. Elements like videos or maps are a common part of the most web sites. All of them produces many requests even a user doesn't want to watch the video or browse the map. There are also native mobile application for that services with better perfomance. So what can we to do? This is actually a great opportunity to utilize conditional loading to serve the best experience for the right context.
+There are a lot of commonly used web services that produce unnecessary traffic. Elements like videos or maps are a common part of the most web sites. All of them produces many requests and the web traffic even the website user doesn't want to watch the video or browse the map. There are also native mobile application for that services with better perfomance. So what can we to do? This is actually a great opportunity to utilize conditional loading to serve the best experience for the right context.
 
-We use the Mobile First principe so we make a default elemet static and pull in a static image. This approach saves a lot of web traffic. We can then detect when it’s appropriate to download the embedded map or to launch the native mobile application.
+We use the Mobile First principe so we make a default elemet static and pull in a static image. This approach saves a lot of web traffic and becasue of limited mobile internet plans also user's money. We can then detect when it’s appropriate to download the embedded map or to launch the native mobile application.
 
 Web App -> ![](http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2012/12/13/1355414300656/google-maps-app-008.jpg)
 
