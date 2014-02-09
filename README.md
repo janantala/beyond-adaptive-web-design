@@ -116,7 +116,11 @@ This approach works quite well for simple use cases. We can show multiple map ty
 
 ## Conclusion
 
-More changes are coming, new APIs and beyond. What will you do with this new power? An innovator is someone who wakes up to the constraints caused by false assumptions, and breaks out of them.
+We have received a lot feedback and have usage and popularity results of adaptive input methods. As we have expected the most popular input method is speech input as we can control an entire web application using only voice commands. Gyroscope and video motion are also useful input methods, but there are limited occasions where to use them and can be used as supplementary input method only. All of them however provide a great opportunity to enhance user experience.
+
+Adaptive web components are a great to save an unwonted web traffic. They also icrease user experience because the web page produces less requests and loads faster. However the limitations also exist because many websites need custom elements and design. As a result the adaptive web components produce less interest than adaptive input methods.
+
+More changes are coming, new devices, web APIs and beyond. What will it look like in a couple of years? The devices will be more diversified and have the web access. So we have to prepare the Web to this evolution and provide the best user experience.
 
 ## Refereneces
 
