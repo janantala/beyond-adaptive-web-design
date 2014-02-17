@@ -108,7 +108,7 @@ There are a lot of commonly used web services that produce unnecessary traffic. 
 
 We use the Mobile First principe so we make a default elemet static and pull in a static image. This approach saves a lot of web traffic and becasue of limited mobile internet plans also user's money. We can then detect when it’s appropriate to download the embedded map or to launch the native mobile application.
 
-Web App -> ![](http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2012/12/13/1355414300656/google-maps-app-008.jpg)
+![](images/maps.png)
 
 By default we set an anchor to the location of the service website. When a user taps the component, the browser will try to open the native application where they can have a better experience. If the native experience is unavailable, the user is redirected to the service website, where they receive a full-screen experience. However, we don't always want to open the native application. We can download an embedded map or play the video directly after the tap. The user can interact with them directly in the web application so developers have to make a decision between these choices.
 
