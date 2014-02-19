@@ -69,7 +69,7 @@ So what we should do about it? We can create reuseable components and conditiona
 
 ## Evaluation and experiments 
 
-There have been made series of experiments on both adaptive input methods and web components. The goal has been to create reusable modules and components every developer can include into their web application. All of them have been released as open source and are available on GitHub.
+There have been made series of experiments on both adaptive input methods and web components. To prove the usefulness of the proposed concept we have designed and implemented several reusable modules and components and we have used them in propotype web projects. All of them have been released as open source and are available on GitHub.
 
 We have tracked amount of saved web traffic, interest in alternative input methods and received a lot of feedback from the community.
 
