@@ -46,7 +46,7 @@
 	<key>Creator</key>
 	<string>Jan Antala</string>
 	<key>DisplayScale</key>
-	<string>1 0/72 in = 1 0/72 in</string>
+	<string>1 0/72 in = 1.0000 in</string>
 	<key>GraphDocumentVersion</key>
 	<integer>8</integer>
 	<key>GraphicsList</key>
@@ -59,8 +59,8 @@
 			<key>Points</key>
 			<array>
 				<string>{47.19732666015625, 224}</string>
-				<string>{106, 174}</string>
-				<string>{197, 219}</string>
+				<string>{91, 197}</string>
+				<string>{201, 196}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -97,8 +97,8 @@
 			<integer>24703</integer>
 			<key>Points</key>
 			<array>
-				<string>{138.90133666992188, 525}</string>
-				<string>{306, 546}</string>
+				<string>{138.90133666992188, 543.60220498904187}</string>
+				<string>{326, 537}</string>
 				<string>{403, 470}</string>
 			</array>
 			<key>Style</key>
@@ -127,6 +127,11 @@
 					<key>Width</key>
 					<real>4</real>
 				</dict>
+			</dict>
+			<key>Tail</key>
+			<dict>
+				<key>ID</key>
+				<integer>149</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -177,7 +182,7 @@
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{201.36458206176758, 168}, {135.90133666992188, 28}}</string>
+			<string>{{205.24053573608398, 184}, {135.90133666992188, 28}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -299,7 +304,7 @@
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{211.63541030883789, 240.01759338378906}, {121.35966491699219, 214.96482412060286}}</string>
+			<string>{{215.5113639831543, 256.01759338378906}, {121.35966491699219, 214.96482412060286}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -329,7 +334,7 @@
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{201.36458206176758, 201}, {141.90133666992188, 292.99999999999972}}</string>
+			<string>{{205.24053573608398, 217}, {141.90133666992188, 292.99999999999972}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -509,7 +514,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2014-02-17 16:37:28 +0000</string>
+	<string>2014-02-19 14:55:27 +0000</string>
 	<key>Modifier</key>
 	<string>Jan Antala</string>
 	<key>NotesVisible</key>
