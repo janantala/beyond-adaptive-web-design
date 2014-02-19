@@ -9,16 +9,16 @@ Mobile device penetration grows rapidly and it brings not only different display
 The Web is continually evolving and we need to evolve with it. It used to be easier to manage browsers when there were just a few of them on the desktop. Today we not only have to deal with a wide range of desktop browsers but mobile devices, tablets, televisions, weareable devices and more. Even for the average web site things have changed a lot over four years: browser share, operating systems, screen resolutions, and more [User Interface 17].
 
 The basic approach how to provide an optimal viewing experience is to use Responsive web design which comes with fluid grids, flexible images and CSS3 media queries [Responsive Web Design].
-While creating flexible layouts is important, there’s a whole lot more that goes into truly exceptional adaptive web experiences. The principles of Adaptive Design are: ubiquity, flexibility, performance, enhancement and future-friendliness [Beyond Squishy: The Principles of Adaptive Design].
+While creating flexible layouts is important, there's a whole lot more that goes into truly exceptional adaptive web experiences. The principles of Adaptive Design are: ubiquity, flexibility, performance, enhancement and future-friendliness [Beyond Squishy: The Principles of Adaptive Design].
 
-The power of the web is its ubiquity. No one knows what the landscape is going to look like in a couple years, but there’s a good chance the new devices in a few years from now will have access to the web. Because of this, we need to preserve and embrace the web’s ubiquity. This requires us to deliver full web experiences regardless of how and where people access the web. 
+The power of the web is its ubiquity. No one knows what the landscape is going to look like in a couple years, but there's a good chance the new devices in a few years from now will have access to the web. Because of this, we need to preserve and embrace the web's ubiquity. This requires us to deliver full web experiences regardless of how and where people access the web. 
 It's important to continue creating flexible interfaces that can adapt to any screen size. Performance often takes a back seat to everything else. Progressive enhancement, feature detection and many other techniques allow us to build up a core experience that allow us to support more devices while still optimizing for the the best of the best. The key aspect of Future Friendly thinking is to acknowledge and embrace unpredictability. Nobody knows where things are going but the one thing we can count on is the evolution.
 
-Adaptive web design is essentially progressive enhancement at its core, but it’s being applied to a much larger, more diverse landscape than when the term progressive enhancement was first coined. We now have Web-enabled smartphones, tablets, e-readers, netbooks, watches, TVs, phablets, notebooks, game consoles and more. We also have many types of internet connections with different qualities.
+Adaptive web design is essentially progressive enhancement at its core, but it's being applied to a much larger, more diverse landscape than when the term progressive enhancement was first coined. We now have Web-enabled smartphones, tablets, e-readers, netbooks, watches, TVs, phablets, notebooks, game consoles and more. We also have many types of internet connections with different qualities.
 
-Responsive design is one technique in an adaptive web design strategy. Creating flexible layouts is extremely important, but it’s just one piece of the puzzle. It’s also important to consider a whole host of other factors as well: ergonomics, touch capability and other input methods, internet connection, geolocation and many other features that can be detected.
+Responsive design is one technique in an adaptive web design strategy. Creating flexible layouts is extremely important, but it's just one piece of the puzzle. It's also important to consider a whole host of other factors as well: ergonomics, touch capability and other input methods, internet connection, geolocation and many other features that can be detected.
 
-We consider “adaptive web design” as a synonym with creating a single Web experience that modifies based on the capabilities of the device and browser. Website can access superpowers in devices.
+We consider ``adaptive web design'' as a synonym with creating a single Web experience that modifies based on the capabilities of the device and browser. Website can access superpowers in devices.
 
 ## Adaptive Input methods
 
@@ -26,7 +26,7 @@ As we have many types of devices with web access we also have to adapt input met
 
 Web browsers on TVs are actually really good but the input is terrible so no one uses them. Input is much more important to interface design than screen size. The input defines what a design needs to do in order to accomplish a task [Adaptive Input].
 
-We also have wearable computers. The current Google Glass interface is limited to a floating rectangle above head. We don’t have full range of motion and, as a result, no spatial cues or depth in the interface.
+We also have wearable computers. The current Google Glass interface is limited to a floating rectangle above head. We don't have full range of motion and, as a result, no spatial cues or depth in the interface.
 
 There is no one true input for the Web. We have to contend with fingers, mice, keyboards, voice and more. The challenge for us over the next few years is not designing for one input but many.
 
@@ -34,7 +34,7 @@ There is no one true input for the Web. We have to contend with fingers, mice, k
 
 Touch is no longer just isolated to smartphones and tablets. Many big sreens in laptops or desktops nowadays are touch capable. Every desktop design has to be touch-friendly now.
 
-The optimal touch target size is 7mm, based on the average size of human finger tips and pads. CSS2.1 defines a pixel as 1/96 of an inch. So 7mm should be 30pixels [Designing for Touch]. However, things aren’t so easy because of dynamic viewports. It means that input elemtents in website have to be usually bigger.
+The optimal touch target size is 7mm, based on the average size of human finger tips and pads. CSS2.1 defines a pixel as 1/96 of an inch. So 7mm should be 30pixels [Designing for Touch]. However, things aren't so easy because of dynamic viewports. It means that input elemtents in website have to be usually bigger.
 
 The best touch interface is sometimes no touch at all. We can use sensors and speech input which is the next frontier for interaction design.
 
@@ -110,7 +110,7 @@ We support 4 direction motion events: swipe from the left to the right, right to
 
 There are a lot of commonly used web services that produce unnecessary traffic. Elements like videos or maps are a common part of the most web sites. All of them produces many requests and the web traffic even the website user doesn't want to watch the video or browse the map. There are also native mobile application for that services with better perfomance. So what can we to do? This is actually a great opportunity to utilize conditional loading to serve the best experience for the right context.
 
-We use the Mobile First principe so we make a default elemet static and pull in a static image. This approach saves a lot of web traffic and becasue of limited mobile internet plans also user's money. We can then detect when it’s appropriate to download the embedded map or to launch the native mobile application.
+We use the Mobile First principe so we make a default elemet static and pull in a static image. This approach saves a lot of web traffic and becasue of limited mobile internet plans also user's money. We can then detect when it's appropriate to download the embedded map or to launch the native mobile application.
 
 ![](images/maps.png)
 
