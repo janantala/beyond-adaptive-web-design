@@ -22,7 +22,7 @@ We consider “adaptive web design” as a synonym with creating a single Web ex
 
 ## Adaptive Input methods
 
-As we have many types of devices with web access we also have to adapt input methods for them. It is not just about screen sizes, but many displays also have touch capabilities.
+As we have many types of devices with web access we also have to adapt input methods for them. It is not just about screen sizes, but many displays also have touch capabilities, are equiped with microphone, accelerometer, gyroscope or camera.
 
 Web browsers on TVs are actually really good but the input is terrible so no one uses them. Input is much more important to interface design than screen size. The input defines what a design needs to do in order to accomplish a task [Adaptive Input].
 
