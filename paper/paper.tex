@@ -6,7 +6,7 @@
 
 % Please do not remove the following commands:
 \editpages{1}{8}
-
+\hyphenation{pha-blets}
 
 \title{Beyond Adaptive Web Design}
 \titlerunning{Beyond Adaptive Web Design}
@@ -34,7 +34,7 @@ The power of the web is its ubiquity. No one knows what the landscape is going t
 
 Adaptive web design is fundamentally progressive enhancement, but it's being applied to a much larger and more diverse landscape. We now have Web-enabled smartphones, tablets, e-readers, netbooks, watches, TVs, phablets, notebooks, game consoles, cars and more. We also have many types of internet networks with different speed, latency and quality. Responsive design is also one technique in an adaptive web design strategy. Creating flexible layouts is important, but there are many more factors we need to think about. It's also important to consider as well ergonomics, touch capability, other input methods, internet connections and many other features that can be detected.
 
-We consider ``adaptive web design'' as a equal to creating a single Web experience that modifies based on the capabilities of the device and browser. Website can access sensors in devices and use them to enhance user experience.
+We consider ``adaptive web design'' as an equal with creating a single Web experience that adjusts based on the capabilities of the device and browser. Website can access sensors in devices and use them to enhance user experience.
 
 
 \section{Adaptive Input methods}
@@ -47,7 +47,7 @@ We also have wearable computers. The current Google Glass interface is limited t
 
 There is no one true input for the Web. We have to contend with fingers, mice, keyboards, voice and more. The challenge for us over the next few years is not designing for one input but many.
 
-\subsection{Touch} % (fold)
+\paragraph{Touch} % (fold)
 \label{sub:touch}
 
 Touch is no longer just isolated to smartphones and tablets. Many big sreens in laptops or desktops nowadays are touch capable. Every desktop design has to be touch-friendly now.
@@ -56,34 +56,34 @@ The optimal touch target size is 7mm, based on the average size of human finger 
 
 The best touch interface is sometimes no touch at all. We can use sensors and speech input which is the next frontier for interaction design.
 
-% subsection touch (end)
+% paragraph touch (end)
 
-\subsection{Speech} % (fold)
+\paragraph{Speech} % (fold)
 \label{sub:speech}
 
 The speech input aims to provide an alternative input method for web applications, without using a keyboard or other physical device. This is no longer science fiction but reality. Many companies rely on it and deploy it to the modern devices and software. It could be also benefitial for older or disabled users~\cite{SpeechRecognition} and can easily become the next big thing.
 
 We can now use speech recognition to take a full control of the web site as we have access to continuous recognition stream. We don't need another input methods at all. A speech feedback for user interaction is also important and we can use speech synthesis feature for it.
 
-% subsection speech (end)
+% paragraph speech (end)
 
-\subsection{Device motion} % (fold)
+\paragraph{Device motion} % (fold)
 \label{sub:device_motion}
 
 We can use a lot of sensors in the devices to detect the device motion. It is made possible by a combination of always-on sensors as are an accelerometer a gyroscope, and a magnetometer, that tell us a lot about how a device is moving through the space around it. The ability of these sensors to provide precise information about the movement of a device opens up new design possibilities for web applications~\cite{ultrabooks}.
 
 From controlling the user interface based on three dimensional motion as input, to combining device motion with another sensors as are location detection or video cameras~\cite{AccelerationAndGyroscope}. There's a lot of interesting interface designs made possible by Device Motion. It depends on us how we use them.
 
-% subsection device_motion (end)
+% paragraph device_motion (end)
 
-\subsection{Video Motion} % (fold)
+\paragraph{Video Motion} % (fold)
 \label{sub:video_motion}
 
 Many modern devices contains built in video camera sensor which we can use as alternative method to device motion. We can access video stream and analyse landscape around the device. Video motion detection is a way of defining user activity in a scene by analyzing image data and differences in a series of images.
 
 We can detect user motion and use it as an alternatove part of input method. We can build web games and another real time interfaces. There's again a lot of interesting interface designs made possible.
 
-% subsection video_motion (end)
+% paragraph video_motion (end)
 
 \section{Adaptive Web Components} % (fold)
 \label{sec:adaptive_web_components}
@@ -110,7 +110,7 @@ We have tracked amount of saved web traffic, interest in alternative input metho
 
 Adaptive input methods provide alternative way of web application control and extend current approach. We have been experimenting to control web applications using voice commands, gyroscope motion and video motion.
 
-\subsubsection{Voice commands} % (fold)
+\paragraph{Voice commands} % (fold)
 \label{ssub:voice_commands}
 
 Speech input provides a great opportunity to take a complete control over web application using only voice commands. For this purpose we have used web browser's Speech API for continuous speech recognition and built a configurable and reuseable module. Speech recognition is however currently possible online only.
@@ -119,9 +119,9 @@ Using speech recognition we get an utterance string which can be compared to voi
 
 But there are many more interesting things we can achieve using speech input. We can even use multiple languages for speech recognition. One of the biggest problems of the voice commands is however incorrect speech recognition. To solve this issue we can conditionalize regular expressions or use uterance error correction.
 
-% subsubsection voice_commands (end)
+% paragraph voice_commands (end)
 
-\subsubsection{Gyroscope rotation} % (fold)
+\paragraph{Gyroscope rotation} % (fold)
 \label{ssub:gyroscope_rotation}
 
 We have used device orientation API as alternative control method to web application and built a module which can scroll in website using gyroscope rotation. Developers can use this module as replacement of the global application scroll instead of touch events or mice wheel and also a local element scroll too.
@@ -138,9 +138,9 @@ We have access to 3 axis rotation informations which are recalculated every time
 
 However some problems have been detected. The biggest one is that browser vendors don't use specification correctly and use own orientation ranges and directions. This causes some scroll issues.
 
-% subsubsection gyroscope_rotation (end)
+% paragraph gyroscope_rotation (end)
 
-\subsubsection{Video camera motion} % (fold)
+\paragraph{Video camera motion} % (fold)
 \label{ssub:video_camera_motion}
 
 Almost every moder device contains a video camera. This is a great opportunity to introduce video motion to web applications. We can control web sites using motion gestures. We use a video camera stream and devide it into image frames. Then we can detect a website user in the each frame using a hsv filter. When we compare all pixels in two adjacent frames we get difference points. When we apply this comparision to multiple frames we can calculate a motion vector.
@@ -155,7 +155,7 @@ Almost every moder device contains a video camera. This is a great opportunity t
 
 We support 4 direction motion events: swipe from the left to the right, right to left, bottom to top and top to bottom. Using video camera motion we can enhance experience in websites and games. However we need a proper ambient lighting. There can be detection issues in too dark and too light scenes.
 
-% subsubsection video_camera_motion (end)
+% paragraph video_camera_motion (end)
 
 % subsection input_methods (end)
 
@@ -169,7 +169,7 @@ We use the Mobile First principe so we make a default elemet static and pull in 
 
 \begin{figure}[ht]
     \begin{center}
-        \includegraphics[width=0.63\textwidth]{../images/maps.png}
+        \includegraphics[width=0.7\textwidth]{../images/maps.png}
         \caption{Maps component}
         \label{fig:maps}
     \end{center}
