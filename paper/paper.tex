@@ -1,11 +1,12 @@
 \documentclass{iitsrc}
 \usepackage{graphicx}
 \usepackage{mflogo}
+\usepackage{url}
 \usepackage[utf8]{inputenc}%some compilers use utf8x and need the prerendredUnicode characters
 %\PrerenderUnicode{áäčďéíľĺňóôŕšťúýžÁÄČĎÉÍĽĹŇÓÔŔŠŤÚÝŽ}
 
 % Please do not remove the following commands:
-\editpages{1}{8}
+\editpages{1}{6}
 \hyphenation{pha-blets}
 
 \title{Beyond Adaptive Web Design}
@@ -101,9 +102,11 @@ So what we should do about it? We can create reuseable components and conditiona
 \section{Evaluation and experiments} % (fold)
 \label{sec:evaluation_and_experiments}
 
-There have been made series of experiments on both adaptive input methods and web components. To prove the usefulness of the proposed concept we have designed and implemented several reusable modules and components and we have used them in propotype web projects. All of them have been released as open source and are available on GitHub.
+We have detected several web componenets and input methods and tried to verify which of them is more useful for the web developers. There have been made series of experiments on both adaptive input methods and web components. To prove the usefulness of the proposed concept we have designed and implemented several reusable modules and components and we have used them in propotype web projects. All of them have been released as open source and are available on GitHub~\footnotemark.
 
-We have tracked amount of saved web traffic, interest in alternative input methods and received a lot of feedback from the community.
+\footnotetext{The modules and components we used to verify the usefulness of the proposed concept are available on GitHub \url{https://github.com/angular-adaptive}}
+
+We have tracked amount of saved web traffic and web requests, webpage rendering time and interest in alternative input methods. We have also received a lot of feedback from the community which helped us to verify the proposed concept.
 
 \subsection{Input methods} % (fold)
 \label{sub:input_methods}
@@ -147,7 +150,7 @@ Almost every moder device contains a video camera. This is a great opportunity t
 
 \begin{figure}[ht]
     \begin{center}
-        \includegraphics[width=0.7\textwidth]{../images/videomotion}
+        \includegraphics[width=0.8\textwidth]{../images/videomotion}
         \caption{Converting video stream into motion vector}
         \label{fig:videomotion}
     \end{center}
@@ -169,7 +172,7 @@ We use the Mobile First principe so we make a default elemet static and pull in 
 
 \begin{figure}[ht]
     \begin{center}
-        \includegraphics[width=0.7\textwidth]{../images/maps.png}
+        \includegraphics[width=0.8\textwidth]{../images/maps.png}
         \caption{Maps component}
         \label{fig:maps}
     \end{center}
