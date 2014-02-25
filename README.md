@@ -116,7 +116,7 @@ Adaptive web components are a great to save an unwonted web traffic. They also i
 
 More changes are coming, new devices, web APIs and beyond. What will it look like in a couple of years? The devices will be more diversified and have the web access. So we have to prepare the Web to this evolution and provide the best user experience, design for many inputs and save the inessential web traffic.
 
-## Refereneces
+## References
 
 1. Basson, S., Fairweather, P.G., Hanson, V.L.: Speech Recognition and Alternative Interfaces for Older Users. *interactions*, 2007, vol. 14, no. 4, pp. 26–29.
 - Bidelman, E.: Web Components: A Tectonic Shift for Web Development. In: *Google IO*, San Francisco, CA, USA, 2013.
