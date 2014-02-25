@@ -1,5 +1,15 @@
 # Beyond Adaptive Web Design
 
+**Ján Antala**
+
+*Slovak University of Technology in Bratislava*<br>
+*Faculty of Informatics and Information Technologies*<br>
+*Ilkovičova 2, 842 16 Bratislava, Slovakia*<br>
+*hello@janantala.com*
+
+Master study programme in field: Information Systems<br>
+Supervisor: Assoc. Professor Michal Čerňanský, Institute of Applied Informatics, Faculty of Informatics and Information Technologies STU in Bratislava
+
 ## Abstract
 
 > Mobile device penetration grows rapidly and it brings not only different display sizes with new human interaction methods, but also high-latency networks. But there are not just smartphones and desktop computers. We now have Web-enabled smartphones, tablets, e-readers, netbooks, watches, TVs, phablets, notebooks, game consoles, cars and more. So it is necessary to adapt web pages for different devices and new interaction methods. Several new methods for designing web are rapidly evolving. We present a new way of web components adaptation based on a device features and external conditions in our work and new possibilities of interaction with web application based on speech recognition, motion or device rotation.
