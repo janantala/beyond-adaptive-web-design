@@ -94,7 +94,7 @@ We have used device orientation API as alternative control method to web applica
 
 We have access to 3 axis rotation informations which are recalculated every time on device orientation change. We remember starting device orientation and compare it to the current one. Based on this substraction we can make a decision which direction we scroll and how fast. The bigger the orientation difference is, the faster we scroll.
 
-![](images/gyroscope.png)
+![](https://raw.github.com/angular-adaptive/adaptive-scroll/master/images/gyrocopter.gif)
 
 However some problems have been detected. The biggest one is that browser vendors don't use specification correctly and use own orientation ranges and directions. This causes some scroll issues.
 
