@@ -141,3 +141,10 @@ More changes are coming, new devices, web APIs and beyond. What will it look lik
 - McLachlan, P.: Page Speed is Only the Beginning. In: *Breaking Development*, San Diego, CA, USA, July 22-24, 2013.
 - Wroblewski, L.: Device Motion. In: *Re-imagining Apps for Ultrabook*, Intel Software, 2013.
 
+
+# License
+
+The content of this project itself is licensed under the
+[Creative Commons Attribution 3.0 license](http://creativecommons.org/licenses/by/3.0/us/deed.en_US)
+
+Copyright (c) 2014 [Jan Antala](http://www.janantala.com)
