@@ -94,7 +94,7 @@ We have used device orientation API as alternative control method to web applica
 
 We have access to 3 axis rotation informations which are recalculated every time on device orientation change. We remember starting device orientation and compare it to the current one. Based on this subtraction we can make a decision which direction we scroll and how fast. The bigger the orientation difference is, the faster we scroll.
 
-![](images/gyroscope.png)
+![](https://raw.github.com/angular-adaptive/adaptive-scroll/master/images/gyrocopter.gif)
 
 However some problems have been detected. The biggest one is that browser vendors don't use specification correctly and use own orientation ranges and directions. This causes some scroll issues.
 
@@ -140,3 +140,10 @@ More changes are coming, new devices, web APIs and beyond. What will it look lik
 - Marquis, M.: 20MB Responsive Websites. In: *Breaking Development*, Orlando, FL, USA, April 8-10, 2013.
 - McLachlan, P.: Page Speed is Only the Beginning. In: *Breaking Development*, San Diego, CA, USA, July 22-24, 2013.
 - Wroblewski, L.: Device Motion. In: *Re-imagining Apps for Ultrabook*, Intel Software, 2013.
+
+# License
+
+The content of this project itself is licensed under the
+[Creative Commons Attribution 3.0 license](http://creativecommons.org/licenses/by/3.0/us/deed.en_US)
+
+Copyright (c) 2014 [Jan Antala](http://www.janantala.com)
