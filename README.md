@@ -32,11 +32,11 @@ As we have many types of devices with web access we also have to adapt input met
 
 Web browsers on TVs are actually really good but the input is terrible so no one uses them. Input is much more important to interface design than screen size. The input defines what a design needs to do in order to accomplish a task [[6](#references)]. We also have wearable computers. The current Google Glass interface is limited to a floating display above head. We don't have full range of motion and, as a result, no spatial cues or depth in the interface.
 
-There is no one true input for the Web. We have to contend with fingers, mice, keyboards, voice and more. The challenge for us over the next few years is not designing for one input but many.
+There is no universal input for the Web. We have to contend with fingers, mice, keyboards, voice and more. The challenge for us over the next few years is not designing for one input but many.
 
 ### Touch
 
-Touch is no longer just isolated to smartphones and tablets. Many big screens in laptops or desktops nowadays are touch capable. Every desktop design has to be touch-friendly now.
+Touch is no longer just isolated to smartphones and tablets. Nowadays many large screens on laptops or desktops are touch capable. Thus every desktop design has to be touch-friendly now.
 
 The optimal touch target size is 7mm, based on the average size of human finger tips and pads. CSS2.1 defines a pixel as 1/96 of an inch. So 7mm should be 30pixels [[3](#references)]. However, things aren't so easy because of dynamic viewports. It means that input elemtents in website have to be usually bigger.
 
@@ -62,11 +62,11 @@ We can detect user motion and use it as an alternatove part of input method. We 
 
 ## Adaptive Web Components
 
-One of the most common critiques against responsive Web design is that Web sites have large file size and so they are slowing Web pages down. But we can make responsive sites perform well, we just have to the work to make it possible [[10](#references)].
+One of the most common critiques against responsive Web design is that Web sites have large file size and so they are slowing Web pages down. But we can make responsive sites perform well, we just have to do the work to make it possible [[10](#references)].
 
 We all should be interested in page speed and mobile performance because people need fast experiences on the Web. There's lot of studies that highlight the importance of speed. More than half of people with a bad loading experience on mobile, won't come back [[5](#references)]. 73% of mobile internet users say they've encountered Web pages that are too slow, a 1 second delay can result in a 7% reduction in conversions [[11](#references)]. Speed is an esencial part of our strategy and we should care about it. We can quantify its impact on the metrics and track it.
 
-There are many different types of internet connections. Mobile network speeds have rose but this doesn't help much as page load times are still high as bandwidth increases. Latency is a much bigger fragment to download times. LTE reduces tower latency by several milliseconds but we still need to make a number of connections to download data to our devices [[5](#references)].
+There are many different types of internet connections. Mobile network speeds have rose but this doesn't help much as page load times are still high as bandwidth increases. Latency is a much bigger fragment to download times. LTE standart reduces tower latency by several milliseconds but we still need to make a number of connections to download data to our devices [[5](#references)].
 
 So what we should do about it? We can create reusable components and conditionally load resources. Web components allow us to use custom HTML elements in the browser. We can enclose a simple element or an entire application logic within an HTML element [[2](#references)]. We can build Web applications in a reusable, commutable and encapuslated way.
 
@@ -86,13 +86,13 @@ Speech input provides a great opportunity to take a complete control over web ap
 
 Using speech recognition we get an utterance string which can be compared to voice commands from our configuration. We use regular expressions for this purpose with attached callback methods. These configurations are bound to utterance watchers and the callback is called when voice command is recognised. Regular expressions are beneficial since we can set up a single watcher for dynamical commands where one command can be used for multiple subjects.
 
-But there are many more interesting things we can achieve using speech input. We can even use multiple languages for speech recognition. One of the biggest problems of the voice commands is however incorrect speech recognition. To solve this issue we can conditionalize regular expressions or use utterance error correction.
+But there are much more interesting things we can achieve using speech input. We can even use multiple languages for speech recognition. One of the biggest problems of the voice commands is however incorrect speech recognition. To solve this issue we can conditionalize regular expressions or use utterance error correction.
 
 #### Gyroscope rotation
 
 We have used device orientation API as alternative control method to web application and built a module which can scroll in website using gyroscope rotation. Developers can use this module as replacement of the global application scroll instead of touch events or mice wheel and also a local element scroll too.
 
-We have access to 3 axis rotation informations which are recalculated every time on device orientation change. We remember starting device orientation and compare it to the current one. Based on this subtraction we can make a decision which direction we scroll and how fast. The bigger the orientation difference is, the faster we scroll.
+We have access to 3 axis rotation information which are recalculated every time on device orientation change. We remember starting device orientation and compare it to the current one. Based on this subtraction we can make a decision which direction we scroll and how fast. The bigger the orientation difference is, the faster we scroll.
 
 ![](https://raw.github.com/angular-adaptive/adaptive-scroll/master/images/gyrocopter.gif)
 
@@ -100,17 +100,17 @@ However some problems have been detected. The biggest one is that browser vendor
 
 #### Video camera motion
 
-Almost every moder device contains a video camera. This is a great opportunity to introduce video motion to web applications. We can control web sites using motion gestures. We use a video camera stream and devide it into image frames. Then we can detect a website user in the each frame using a hsv filter. When we compare all pixels in two adjacent frames we get difference points. When we apply this comparision to multiple frames we can calculate a motion vector.
+Almost every moder device contains a video camera. This is a great opportunity to introduce video motion to web applications. We can control web sites using motion gestures. We use a video camera stream and devide it into image frames. Then we can detect a website user in the each frame using a HSV filter. When we compare all pixels in two adjacent frames we get difference points. When we apply this comparision to multiple frames we can calculate a motion vector.
 
 ![](images/videomotion.png)
 
-We support 4 direction motion events: swipe from the left to the right, right to left, bottom to top and top to bottom. Using video camera motion we can enhance experience in websites and games. However we need a proper ambient lighting. There can be detection issues in too dark and too light scenes.
+We support 4 direction motion events: swipe from the left to the right, right to left, bottom to top and top to bottom. Using video camera motion we can enhance experience in websites and games. However we need a proper ambient lighting. There can be detection issues in too dark and too bright scenes.
 
 ### Web Components
 
-There are a lot of commonly used web services that produce unnecessary traffic. Elements like videos or maps are a common part of the most web sites. All of them produces many requests and the web traffic even the website user doesn't want to watch the video or browse the map. There are also native mobile application for that services with better perfomance which provide full user experience. So what can we to do? This is a great opportunity to utilize conditional loading to serve the best experience for the right context.
+There are many commonly used web services that produce unnecessary traffic. Elements like videos or maps are a common part of the most web sites. All of them produces many requests and the web traffic so the website user doesn't want to watch the video or browse the map. There are also native mobile application for that services with better perfomance which provide full user experience. So what can we to do? This is a great opportunity to utilize conditional loading to serve the best experience for the right context.
 
-We use the Mobile First principe so we make a default element static and pull in a static image. This approach saves a lot of web traffic and becasue of limited mobile internet plans also user's money. We can then detect when it's appropriate to download the embedded map or to launch the native mobile application.
+We use the Mobile First principe so we make a default element static and pull in a static image. This approach saves a lot of web traffic and becasue of limited mobile data plans also user's money. We can then detect when it's appropriate to download the embedded map or to launch the native mobile application.
 
 ![](images/maps.png)
 
@@ -120,11 +120,11 @@ This approach works quite well for simple use cases. We can show multiple map ty
 
 ## Conclusion
 
-We have received a lot feedback and have usage and popularity results of adaptive input methods. As we have expected, the most popular input method is speech input since we can control an entire web application using only voice commands. Gyroscope and video motion are also useful input methods, but there are limited occasions where to use them and can be used as supplementary input method only. All of them however provide a great opportunity to enhance user experience.
+We have received a lot feedback and have usage and popularity results of adaptive input methods. As we have expected, the most popular input method is speech input since we can control an entire web application using only voice commands. Gyroscope and video motion are also useful input methods, but there are limited possibilities where to use them and can be used as supplementary input method only. All of them however provide a great opportunity to enhance user experience.
 
-Adaptive web components are a great to save an unwonted web traffic. They also increase user experience because the web page produces less requests and loads faster. However the limitations also exist because many websites need custom elements and design. As a result the adaptive web components produce less interest than adaptive input methods, but are the necessary part of the Web.
+Adaptive web components are a great to save an unwanted web traffic. They also increase user experience because the web page produces less requests and loads faster. However the limitations also exist because many websites need custom elements and design. As a result the adaptive web components produce less interest than adaptive input methods, but are the necessary part of the Web.
 
-More changes are coming, new devices, web APIs and beyond. What will it look like in a couple of years? The devices will be more diversified and have the web access. So we have to prepare the Web to this evolution and provide the best user experience, design for many inputs and save the inessential web traffic.
+More changes are coming, new devices, web APIs and beyond. How it will look in a few years? The devices will be more diversified and have the web access. So we have to prepare the Web to this evolution and provide the best user experience, design for many inputs and save the inessential web traffic.
 
 ## References
 
