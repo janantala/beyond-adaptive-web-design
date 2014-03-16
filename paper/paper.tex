@@ -137,7 +137,7 @@ We have access to 3 axis rotation information which are recalculated every time 
     \end{center}
 \end{figure}
 
-However some problems have been detected. The biggest one is that browser vendors do not use specification correctly and use own orientation ranges and directions. This causes some scroll issues.
+\noindent However some problems have been detected. The biggest one is that browser vendors do not use specification correctly and use own orientation ranges and directions. This causes some scroll issues.
 
 % subsubsection gyroscope_rotation (end)
 
@@ -154,7 +154,7 @@ Almost every moder device contains a video camera. This is a great opportunity t
     \end{center}
 \end{figure}
 
-We support 4 direction motion events: swipe from the left to the right, right to left, bottom to top and top to bottom. Using video motion detection we can enhance experience in websites and games. However we need a proper ambient lighting. There can be detection issues in too dark and too bright scenes.
+\noindent We support 4 direction motion events: swipe from the left to the right, right to left, bottom to top and top to bottom. Using video motion detection we can enhance experience in websites and games. However we need a proper ambient lighting. There can be detection issues in too dark and too bright scenes.
 
 % subsubsection video_camera_motion (end)
 
@@ -176,7 +176,7 @@ We use the Mobile First principe so we make a default element static and pull in
     \end{center}
 \end{figure}
 
-By default we set an anchor to the location of the service website. When a user taps the component, the browser will try to open the native application where they can have a better experience. If the native experience is unavailable, the user is redirected to the service website, where they receive a full-screen experience. However, we do not always want to open the native application. We can download an embedded map or play the video directly after the tap. The user can interact with them directly in the web application so developers have to make a decision between these choices.
+\noindent By default we set an anchor to the location of the service website. When a user taps the component, the browser will try to open the native application where they can have a better experience. If the native experience is unavailable, the user is redirected to the service website, where they receive a full-screen experience. However, we do not always want to open the native application. We can download an embedded map or play the video directly after the tap. The user can interact with them directly in the web application so developers have to make a decision between these choices.
 
 This approach works quite well for simple use cases. We can show multiple map types, markers or videos. However, more interactive elements require additional consideration. Even then use of an embedded elements directly still might not make sense because of unnecessary traffic, while adaptive techniques reduces it. We can still replace basic static image with richer elements.
 

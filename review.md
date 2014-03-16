@@ -7,7 +7,6 @@ Najskor zoznam chyb:
 - toto vobec nie je anglicky "The best touch interface is sometimes no touch at all"...  can be handled/controlled without toughing?
 - Dalej anglicku gramatiku nekomentujem, len dolezite veci. Pouzite translate.google a bude to lepsie. Uvod bol napisany este celkom dobrou anglictinou.
 - tento odstavec nedava zmysel: "From controlling the user interface based on ..."
-- odstavec pod obrazkom ma zacinat formatom normal first
 - "Even then use of an embedded elements directly still might not make sense because of unnecessary traffic, while adaptive techniques reduces it." tuto vetu posekat, je prilis komplikovana
 - ak mate tak vela feedbacku, preco ste nenapisali, ze kolko pouzivatelov sa na nom zucastnilo - kolki z nich ovladali hlasom, kolki otacanim, kolki mavanim pred kamerou (osobne mi to tretie pride absolutne nepouzitelne, takze konkretny priklad pouzitia by pomohol citatelovi pochopit zmysel takehoto ovladania)
    - kolko roznych elementov ste testovali a ktorym typom ovladania ho pouzivatelia ovladali

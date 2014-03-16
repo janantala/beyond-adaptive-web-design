@@ -3,6 +3,7 @@
 - preformulované slovné spojenia
 - odstránené skrátené formy slov
 - opravené použitie detekcie na základe rotácie gyroskopu a pohybu z videa
+- odstavec pod obrazkom zacina formatom normal first
 
 
 # Neopravene
