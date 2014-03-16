@@ -6,6 +6,7 @@
 - odstavec pod obrazkom zacina formatom normal first
 
 - doplnene info o pocte ucastnikov
+- pridane testovane elementy
 
 # Neopravene
 - "We have to contend with fingers..." tam chcelo byt asi content, nie?

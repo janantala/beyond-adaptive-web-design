@@ -74,7 +74,7 @@ So what we should do about it? We can create reusable components and conditional
 
 We have detected several web components and input methods and tried to verify which of them provide better experience for the website users and are also useful for the web developers. There have been made series of experiments on both adaptive input methods and adaptive web components. To prove the usefulness of the proposed concept we have designed and implemented several reusable modules and components and we have used them in propotype web projects. All of them have been released as open source and are available on [GitHub](https://github.com/angular-adaptive).
 
-We have tracked amount of saved web traffic and web requests, webpage rendering time and interest in alternative input methods. We have also received a lot of feedback from the community which helped us to verify the proposed concept. The experiment was attended by thousands of users and still has weekly traffic one hundred of unique visitors.
+We have tracked amount of saved web traffic and web requests, webpage rendering time and interest in alternative input methods. We have also received a lot of feedback from the community which helped us to verify the proposed concept. According to analytics the experiment has been attended by thousands of users and still has the weekly traffic one hundred of unique visitors.
 
 ### Input methods
 
@@ -110,7 +110,7 @@ We support 4 direction motion events: swipe from the left to the right, right to
 
 There are many commonly used web services that produce unnecessary traffic. Elements like videos or maps are a common part of the most web sites. All of them produces many requests and the web traffic so the website user does not want to watch the video or browse the map. There are also native mobile application for that services with better perfomance which provide full user experience. So what can we to do? This is a great opportunity to utilize conditional loading to serve the best experience for the right context.
 
-We use the Mobile First principe so we make a default element static and pull in a static image. This approach saves a lot of web traffic and becasue of limited mobile data plans also user's money. We can then detect when it is appropriate to download the embedded map or to launch the native mobile application.
+We have used the Mobile First principle to develop Google Maps and Youtube videos web components. So we make a default element static and pull in a static image. This approach saves a lot of web traffic and becasue of limited mobile data plans also user's money. We can then detect when it is appropriate to download the embedded map or to launch the native mobile application.
 
 ![](images/maps.png)
 
