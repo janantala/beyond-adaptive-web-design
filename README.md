@@ -74,7 +74,7 @@ So what we should do about it? We can create reusable components and conditional
 
 We have detected several web components and input methods and tried to verify which of them provide better experience for the website users and are also useful for the web developers. There have been made series of experiments on both adaptive input methods and adaptive web components. To prove the usefulness of the proposed concept we have designed and implemented several reusable modules and components and we have used them in propotype web projects. All of them have been released as open source and are available on [GitHub](https://github.com/angular-adaptive).
 
-We have tracked amount of saved web traffic and web requests, webpage rendering time and interest in alternative input methods. We have also received a lot of feedback from the community which helped us to verify the proposed concept.
+We have tracked amount of saved web traffic and web requests, webpage rendering time and interest in alternative input methods. We have also received a lot of feedback from the community which helped us to verify the proposed concept. The experiment was attended by thousands of users and still has weekly traffic one hundred of unique visitors.
 
 ### Input methods
 

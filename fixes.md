@@ -5,6 +5,7 @@
 - opravené použitie detekcie na základe rotácie gyroskopu a pohybu z videa
 - odstavec pod obrazkom zacina formatom normal first
 
+- doplnene info o pocte ucastnikov
 
 # Neopravene
 - "We have to contend with fingers..." tam chcelo byt asi content, nie?
