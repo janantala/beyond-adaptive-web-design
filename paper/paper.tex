@@ -22,7 +22,7 @@
 \begin{document}
 
 \begin{abstract}
-Mobile device penetration grows rapidly and it brings not only different display sizes with new human interaction methods, but also high-latency networks. But there are not just smartphones and desktop computers. We now have Web-enabled smartphones, tablets, e-readers, netbooks, watches, TVs, phablets, notebooks, game consoles, cars and more. So it is necessary to adapt web pages for different devices and new interaction methods. Several new methods for designing web are rapidly evolving. We present a new way of web components adaptation based on a device features and external conditions in our work and new possibilities of interaction with web application based on speech recognition, motion or device rotation.
+Mobile device penetration grows rapidly and it brings not only different display sizes with new human interaction methods, but also high-latency networks. But there are not just smartphones and desktop computers. We now have Web-enabled smartphones, tablets, e-readers, netbooks, watches, TVs, phablets, notebooks, game consoles, cars and more. So it is necessary to adapt web pages for different devices and new interaction methods. Several new methods for designing web are rapidly evolving. We present a new way of web components adaptation based on a device features and external conditions in our work. We introduce new possibilities of interaction with the web applications based on speech recognition, motion or device rotation.
 \end{abstract}
 
 \section{Introduction}
@@ -35,7 +35,7 @@ The power of the web is its ubiquity. No one knows what the landscape is going t
 
 Adaptive web design is fundamentally progressive enhancement, but it is being applied to a much larger and more diverse landscape. We now have Web-enabled smartphones, tablets, e-readers, netbooks, watches, TVs, phablets, notebooks, game consoles, cars and more. We also have many types of internet networks with different speed, latency and quality. Responsive design is also one technique in an adaptive web design strategy. Creating flexible layouts is important, but there are many more factors we need to think about. It is also important to consider as well ergonomics, touch capability, other input methods, internet connections and many other features that can be detected.
 
-We consider ``adaptive web design'' as an equal with creating a single Web experience that adjusts based on the capabilities of the device and browser. Website can access sensors in devices and use them to enhance user experience.
+We consider ``adaptive web design'' as an equal with creating a single Web experience. We can adjust it based on the capabilities of the device and browser. Website can access sensors in devices and use them to enhance user experience.
 
 
 \section{Adaptive Input methods}
@@ -53,7 +53,7 @@ Touch is no longer just isolated to smartphones and tablets. Nowadays many large
 
 The optimal touch target size is 7mm, based on the average size of human finger tips and pads. CSS2.1 defines a pixel as 1/96 of an inch. So 7mm should be 30pixels~\cite{designingfortouch}. However, things are not so easy because of dynamic viewports. It means that input elemtents in website have to be usually bigger.
 
-The best touch interface is sometimes no touch at all. We can use sensors and speech input which is the next frontier for interaction design.
+The best interface can be sometimes controlled without touching at all. We can use sensors and speech input which is the next frontier for interaction design.
 
 % subsubsection touch (end)
 
@@ -71,7 +71,7 @@ We can now use speech recognition to take a full control of the web site as we h
 
 We can use a lot of sensors in the devices to detect the device motion. It is made possible by a combination of always-on sensors as are an accelerometer a gyroscope, and a magnetometer, that tell us a lot about how a device is moving through the space around it. The ability of these sensors to provide precise information about the movement of a device opens up new design possibilities for web applications~\cite{ultrabooks}.
 
-From controlling the user interface based on three dimensional motion as input, to combining device motion with another sensors as are location detection or video cameras~\cite{AccelerationAndGyroscope}. There is a lot of interesting interface designs made possible by Device Motion. It depends on us how we use them.
+We can control the user interface based on three dimensional motion as input or we can combine it with another sensors as are location detection or video cameras~\cite{AccelerationAndGyroscope}. There are a lot of interesting interface designs made possible by device motion. It depends on us how we use them.
 
 % subsubsection device_motion (end)
 
@@ -178,7 +178,7 @@ We use the Mobile First principe so we make a default element static and pull in
 
 \noindent By default we set an anchor to the location of the service website. When a user taps the component, the browser will try to open the native application where they can have a better experience. If the native experience is unavailable, the user is redirected to the service website, where they receive a full-screen experience. However, we do not always want to open the native application. We can download an embedded map or play the video directly after the tap. The user can interact with them directly in the web application so developers have to make a decision between these choices.
 
-This approach works quite well for simple use cases. We can show multiple map types, markers or videos. However, more interactive elements require additional consideration. Even then use of an embedded elements directly still might not make sense because of unnecessary traffic, while adaptive techniques reduces it. We can still replace basic static image with richer elements.
+This approach works quite well for simple use cases. We can show multiple map types, markers or videos. However, more interactive elements require additional consideration. Even then use of an embedded elements directly still might not make sense because of unnecessary traffic. We can still use adaptive techniques to reduce it and replace basic static image with richer elements.
 
 % subsection web_components (end)
 
