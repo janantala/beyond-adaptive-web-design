@@ -1,6 +1,7 @@
 # Opravene
 - opravené preklepy
 - preformulované slovné spojenia
+- odstránené skrátené formy slov
 
 
 # Neopravene

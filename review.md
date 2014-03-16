@@ -6,7 +6,6 @@ Najskor zoznam chyb:
 - napriek osobnej skusenosti s google glass vobec nerozumiem vetam "The current Google Glass interface is limited to a floating display above head. We don’t have full range of motion and, as a result, no spatial cues or depth in the interface." prosim dostudovat, opravit a preformulovat.
 - toto vobec nie je anglicky "The best touch interface is sometimes no touch at all"...  can be handled/controlled without toughing?
 - Dalej anglicku gramatiku nekomentujem, len dolezite veci. Pouzite translate.google a bude to lepsie. Uvod bol napisany este celkom dobrou anglictinou.
-- Vo vedeckom clanku sa nepouzivaju skratene formy ako don't, There’s, won’t, they’ve, doesn’t, it's, don't
 - tento odstavec nedava zmysel: "From controlling the user interface based on ..."
 - nieco ako "gyroscope motion and video motion" je nezmysel, moze byt akurat motion detected by a gytoscope or a camera.
 - pouzivatel otaca zariadenim, nie gyroskopom. gyroskop dokaze toto otocenie detegovat. cize miesto "...using gyroscope rotation" ma byt "...detecting rotation using a gyroscope"
