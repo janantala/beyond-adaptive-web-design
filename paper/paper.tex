@@ -75,7 +75,7 @@ From controlling the user interface based on three dimensional motion as input, 
 
 % subsubsection device_motion (end)
 
-\subsubsection*{Video Motion} % (fold)
+\subsubsection*{Video motion detection} % (fold)
 \label{sub:video_motion}
 
 Many modern devices contains built in video camera sensor which we can use as alternative method to device motion. We can access video stream and analyse landscape around the device. Video motion detection is a way of defining user activity in a scene by analyzing image data and differences in a series of images.
@@ -109,7 +109,7 @@ We have tracked amount of saved web traffic and web requests, webpage rendering 
 \subsection{Input methods} % (fold)
 \label{sub:input_methods}
 
-Adaptive input methods provide alternative way of web application control and extend current approach. We have been experimenting to control web applications using voice commands, gyroscope motion and video motion.
+Adaptive input methods provide alternative way of web application control and extend current approach. We have been experimenting to control web applications using voice commands, motion detected by a gyroscope or a camera.
 
 \subsubsection*{Voice commands} % (fold)
 \label{ssub:voice_commands}
@@ -125,7 +125,7 @@ But there are much more interesting things we can achieve using speech input. We
 \subsubsection*{Gyroscope rotation} % (fold)
 \label{ssub:gyroscope_rotation}
 
-We have used device orientation API as alternative control method to web application and built a module which can scroll in website using gyroscope rotation. Developers can use this module as replacement of the global application scroll instead of touch events or mice wheel and also a local element scroll too.
+We have used device orientation API as alternative control method to web application and built a module which can scroll in website detecting rotation using a gyroscope. Developers can use this module as replacement of the global application scroll instead of touch events or mice wheel and also a local element scroll too.
 
 We have access to 3 axis rotation information which are recalculated every time on device orientation change. We remember starting device orientation and compare it to the current one. Based on this subtraction we can make a decision which direction we scroll and how fast. The bigger the orientation difference is, the faster we scroll.
 
@@ -141,7 +141,7 @@ However some problems have been detected. The biggest one is that browser vendor
 
 % subsubsection gyroscope_rotation (end)
 
-\subsubsection{Video camera motion} % (fold)
+\subsubsection{Video motion detection} % (fold)
 \label{ssub:video_camera_motion}
 
 Almost every moder device contains a video camera. This is a great opportunity to introduce video motion to web applications. We can control web sites using motion gestures. We use a video camera stream and devide it into image frames. Then we can detect a website user in the each frame using a HSV filter. When we compare all pixels in two adjacent frames we get difference points. When we apply this comparision to multiple frames we can calculate a motion vector.
@@ -154,7 +154,7 @@ Almost every moder device contains a video camera. This is a great opportunity t
     \end{center}
 \end{figure}
 
-We support 4 direction motion events: swipe from the left to the right, right to left, bottom to top and top to bottom. Using video camera motion we can enhance experience in websites and games. However we need a proper ambient lighting. There can be detection issues in too dark and too bright scenes.
+We support 4 direction motion events: swipe from the left to the right, right to left, bottom to top and top to bottom. Using video motion detection we can enhance experience in websites and games. However we need a proper ambient lighting. There can be detection issues in too dark and too bright scenes.
 
 % subsubsection video_camera_motion (end)
 

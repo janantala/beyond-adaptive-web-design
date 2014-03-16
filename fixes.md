@@ -2,6 +2,7 @@
 - opravené preklepy
 - preformulované slovné spojenia
 - odstránené skrátené formy slov
+- opravené použitie detekcie na základe rotácie gyroskopu a pohybu z videa
 
 
 # Neopravene

@@ -78,7 +78,7 @@ We have tracked amount of saved web traffic and web requests, webpage rendering 
 
 ### Input methods
 
-Adaptive input methods provide alternative way of web application control and extend current approach. We have been experimenting to control web applications using voice commands, gyroscope motion and video motion.
+Adaptive input methods provide alternative way of web application control and extend current approach. We have been experimenting to control web applications using voice commands, motion detected by a gyroscope or a camera.
 
 #### Voice commands
 
@@ -90,7 +90,7 @@ But there are much more interesting things we can achieve using speech input. We
 
 #### Gyroscope rotation
 
-We have used device orientation API as alternative control method to web application and built a module which can scroll in website using gyroscope rotation. Developers can use this module as replacement of the global application scroll instead of touch events or mice wheel and also a local element scroll too.
+We have used device orientation API as alternative control method to web application and built a module which can scroll in website detecting rotation using a gyroscope. Developers can use this module as replacement of the global application scroll instead of touch events or mice wheel and also a local element scroll too.
 
 We have access to 3 axis rotation information which are recalculated every time on device orientation change. We remember starting device orientation and compare it to the current one. Based on this subtraction we can make a decision which direction we scroll and how fast. The bigger the orientation difference is, the faster we scroll.
 
@@ -98,13 +98,13 @@ We have access to 3 axis rotation information which are recalculated every time 
 
 However some problems have been detected. The biggest one is that browser vendors do not use specification correctly and use own orientation ranges and directions. This causes some scroll issues.
 
-#### Video camera motion
+#### Video motion detection
 
 Almost every moder device contains a video camera. This is a great opportunity to introduce video motion to web applications. We can control web sites using motion gestures. We use a video camera stream and devide it into image frames. Then we can detect a website user in the each frame using a HSV filter. When we compare all pixels in two adjacent frames we get difference points. When we apply this comparision to multiple frames we can calculate a motion vector.
 
 ![](images/videomotion.png)
 
-We support 4 direction motion events: swipe from the left to the right, right to left, bottom to top and top to bottom. Using video camera motion we can enhance experience in websites and games. However we need a proper ambient lighting. There can be detection issues in too dark and too bright scenes.
+We support 4 direction motion events: swipe from the left to the right, right to left, bottom to top and top to bottom. Using video motion detection we can enhance experience in websites and games. However we need a proper ambient lighting. There can be detection issues in too dark and too bright scenes.
 
 ### Web Components
 
