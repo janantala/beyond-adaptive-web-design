@@ -104,7 +104,7 @@ Almost every moder device contains a video camera. This is a great opportunity t
 
 ![](images/videomotion.png)
 
-We support 4 direction motion events: swipe from the left to the right, right to left, bottom to top and top to bottom. Using video motion detection we can enhance experience in websites and games. However we need a proper ambient lighting. There can be detection issues in too dark and too bright scenes.
+We support 4 direction motion events: swipe from the left to the right, right to left, bottom to top and top to bottom. The experiment has been attended by hundreds of users. Using video motion detection we can enhance experience in websites and games. We can also detect device motion and orientation changes so it can be used as a supplementary input method to the accelerometer and gyroscope rotation. However we cannot take a full control over the webapp and need a proper ambient lighting. There can be detection issues in too dark and too bright scenes.
 
 ### Web Components
 
