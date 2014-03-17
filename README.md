@@ -96,7 +96,7 @@ We have access to 3 axis rotation information which are recalculated every time 
 
 ![](https://raw.github.com/angular-adaptive/adaptive-scroll/master/images/gyrocopter.gif)
 
-However some problems have been detected. The biggest one is that browser vendors do not use specification correctly and use own orientation ranges and directions. This causes some scroll issues.
+The experiment has been attended by thousands of users. However some problems have been detected. The biggest one is that browser vendors do not use specification correctly and use own orientation ranges and directions. This causes some scroll issues.
 
 #### Video motion detection
 
