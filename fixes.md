@@ -5,15 +5,16 @@
 - opravené použitie detekcie na základe rotácie gyroskopu a pohybu z videa
 - odstavec pod obrazkom zacina formatom normal first
 
-- doplnené info o počte účastníkov experimentu
-- pridané testované elementy
+
 
 # Dopracované
 - kolko roznych elementov ste testovali
 - kolko roznych hlasovych povelov bolo k dispoziicii a kolko z nich ludia vyuzivali, ktory s nich bol najcastejsie pouzivany (percentualne) a v akom pripade?
 Rozpoznanie reči je v súčasnosti vo webe experimentálna novinka, v prehliadači Chrome bola nasadená minulý rok v lete. Cieľom nebolo zistiť ktorý povel bol najčastejšie používaný, ale či je vôbec možné ovládať webovú aplikáciu pomocou reči. Na základe toho bol vytvorený modul, ktorý umožňuje vykonávať po rozpoznaní rečového príkazu požadovanú funkcionalitu, či už pomocou presného alebo regulárneho výrazu a demo aplikácia na ovládanie todo listu. Kedže išlo o novú vec, tak v tomto prípade sa s existujúcimi riešeniami nedalo porovnávať (Na webe neboli žiadne a oproti iným platformám sa nedá presne porovnať).
 
-- pridané výsledky meraní zráchlenia načítania stránky a množstva ušetrených dát
+- doplnené info o počte účastníkov experimentu
+- pridané testované elementy
+- pridané výsledky meraní, zrýchlenia načítania stránky a množstva ušetrených dát
 
 
 # Neopravené

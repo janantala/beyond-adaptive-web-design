@@ -3,9 +3,6 @@ Najskor zoznam chyb:
 - doplnit urcite a neurcite cleny a opravit tie, ktore tam uz su
 - napriek osobnej skusenosti s google glass vobec nerozumiem vetam "The current Google Glass interface is limited to a floating display above head. We don’t have full range of motion and, as a result, no spatial cues or depth in the interface." prosim dostudovat, opravit a preformulovat.
 - Dalej anglicku gramatiku nekomentujem, len dolezite veci. Pouzite translate.google a bude to lepsie. Uvod bol napisany este celkom dobrou anglictinou.
-- ak mate tak vela feedbacku, preco ste nenapisali, ze kolko pouzivatelov sa na nom zucastnilo - kolki z nich ovladali hlasom, kolki otacanim, kolki mavanim pred kamerou (osobne mi to tretie pride absolutne nepouzitelne, takze konkretny priklad pouzitia by pomohol citatelovi pochopit zmysel takehoto ovladania)
-   - kolko roznych elementov ste testovali a ktorym typom ovladania ho pouzivatelia ovladali
-   - kolko roznych hlasovych povelov bolo k dispoziicii a kolko z nich ludia vyuzivali, ktory s nich bol najcastejsie pouzivany (percentualne) a v akom pripade?
 - referencie nie su spravne naformatovane
 
 Celkovy pohlad na clanok:
