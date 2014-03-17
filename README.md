@@ -82,11 +82,11 @@ Adaptive input methods provide alternative way of web application control and ex
 
 #### Voice commands
 
-Speech input provides a great opportunity to take a complete control over web application using only voice commands. For this purpose we have used web browser's Speech API for continuous speech recognition and built a configurable and reusable module. Speech recognition is however currently possible online only.
+Speech input provides a great opportunity to take a complete control over web application using only voice commands. For this purpose we have used web browser's Speech API for continuous speech recognition and built a configurable and reusable module. Speech recognition is however currently an experimental feauture and is possible online only.
 
 Using speech recognition we get an utterance string which can be compared to voice commands from our configuration. We use regular expressions for this purpose with attached callback methods. These configurations are bound to utterance watchers and the callback is called when voice command is recognised. Regular expressions are beneficial since we can set up a single watcher for dynamical commands where one command can be used for multiple subjects.
 
-But there are much more interesting things we can achieve using speech input. We can even use multiple languages for speech recognition. One of the biggest problems of the voice commands is however incorrect speech recognition. To solve this issue we can conditionalize regular expressions or use utterance error correction.
+We have created an experiment based on our module which provides control over to-do list. There were 7 voice commands using exact expressions and 9 using regular expressions. But there are much more interesting things we can achieve using speech input. We can even use multiple languages for speech recognition. One of the biggest problems of the voice commands is however incorrect speech recognition. To solve this issue we can conditionalize regular expressions or use utterance error correction.
 
 #### Gyroscope rotation
 
