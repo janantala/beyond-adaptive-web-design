@@ -1,7 +1,6 @@
 ----------- REVIEW -----------
 Najskor zoznam chyb:
 - doplnit urcite a neurcite cleny a opravit tie, ktore tam uz su
-- napriek osobnej skusenosti s google glass vobec nerozumiem vetam "The current Google Glass interface is limited to a floating display above head. We don’t have full range of motion and, as a result, no spatial cues or depth in the interface." prosim dostudovat, opravit a preformulovat.
 - Dalej anglicku gramatiku nekomentujem, len dolezite veci. Pouzite translate.google a bude to lepsie. Uvod bol napisany este celkom dobrou anglictinou.
 - referencie nie su spravne naformatovane
 
