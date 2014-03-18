@@ -100,7 +100,7 @@ The experiment has been attended by thousands of users. However some problems ha
 
 #### Video motion detection
 
-Almost every moder device contains a video camera. This is a great opportunity to introduce video motion to web applications. We can control web sites using motion gestures. We use a video camera stream and devide it into image frames. Then we can detect a website user in the each frame using a HSV filter. When we compare all pixels in two adjacent frames we get difference points. When we apply this comparision to multiple frames we can calculate a motion vector.
+Almost every modern device contains a video camera. This is a great opportunity to introduce video motion to web applications. We can control web sites using motion gestures. We use a video camera stream and devide it into image frames. Then we can detect a website user in the each frame using a HSV filter. When we compare all pixels in two adjacent frames we get difference points. When we apply this comparision to multiple frames we can calculate a motion vector.
 
 ![](images/videomotion.png)
 
@@ -108,7 +108,7 @@ We support 4 direction motion events: swipe from the left to the right, right to
 
 ### Web Components
 
-There are many commonly used web services that produce unnecessary traffic. Elements like videos or maps are a common part of the most web sites. All of them produces many requests and the web traffic so the website user does not want to watch the video or browse the map. There are also native mobile application for that services with better perfomance which provide full user experience. So what can we to do? This is a great opportunity to utilize conditional loading to serve the best experience for the right context.
+There are many commonly used web services that produce unnecessary traffic. Elements like videos or maps are a common part of the most web sites. All of them produce many requests and the web traffic so the website user does not want to watch the video or browse the map. There are also native mobile application for that services with better perfomance which provide full user experience. So what can we to do? This is a great opportunity to utilize conditional loading to serve the best experience for the right context.
 
 We have used the Mobile First principle to develop Google Maps and Youtube videos web components. So we make a default element static and pull in a static image. This approach saves a lot of web traffic and becasue of limited mobile data plans also user's money. We can then detect when it is appropriate to download the embedded map or to launch the native mobile application.
 
