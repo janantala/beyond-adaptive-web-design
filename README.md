@@ -1,8 +1,8 @@
 # Beyond Adaptive Web Design
 
-*IIT.SRC 2014, Bratislava, April 29, 2014*
+**Ján Antala**, *hello@janantala.com*
 
-**Ján Antala** *hello@janantala.com*
+*IIT.SRC 2014, Bratislava, April 29, 2014*
 
 *Slovak University of Technology in Bratislava*<br>
 *Faculty of Informatics and Information Technologies*<br>
@@ -10,6 +10,11 @@
 
 Master study programme in field: Information Systems<br>
 Supervisor: Assoc. Professor Michal Čerňanský, Institute of Applied Informatics, Faculty of Informatics and Information Technologies STU in Bratislava
+
+#### Download
+
+- [paper.pdf](paper/paper.pdf)
+- [extended-abstract.pdf](extended-abstract.pdf)
 
 ## Abstract
 
