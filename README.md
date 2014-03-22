@@ -1,11 +1,12 @@
 # Beyond Adaptive Web Design
 
-**Ján Antala**
+*IIT.SRC 2014, Bratislava, April 29, 2014*
+
+**Ján Antala** *hello@janantala.com*
 
 *Slovak University of Technology in Bratislava*<br>
 *Faculty of Informatics and Information Technologies*<br>
 *Ilkovičova 2, 842 16 Bratislava, Slovakia*<br>
-*hello@janantala.com*
 
 Master study programme in field: Information Systems<br>
 Supervisor: Assoc. Professor Michal Čerňanský, Institute of Applied Informatics, Faculty of Informatics and Information Technologies STU in Bratislava
@@ -78,7 +79,7 @@ We have tracked amount of saved web traffic and web requests, webpage rendering 
 
 ### Input methods
 
-Adaptive input methods provide alternative way of web application control and extend current approach. We have been experimenting to control web applications using voice commands, motion detected by a gyroscope or a camera.
+Adaptive input methods provide alternative way of web application control and extend current approach. We have been experimenting to control web applications using voice commands, motion detected by a gyroscope and a video a camera.
 
 #### Voice commands
 
@@ -120,7 +121,7 @@ Using adaptive web components we reduce initial traffic by 400 kB and a page loa
 
 ## Conclusion
 
-We have received a lot feedback and have usage and popularity results of adaptive input methods. As we have expected, the most popular input method is speech input since we can control an entire web application using only voice commands. Gyroscope and video motion are also useful input methods, but there are limited possibilities where to use them and can be used as supplementary input method only. All of them however provide a great opportunity to enhance user experience.
+We have received a lot feedback and have usage and popularity results of adaptive input methods. As we have expected, the most popular input method is speech input since we can control an entire web application using only voice commands. Gyroscope and video motion detection are also useful input methods, but there are limited possibilities where to use them and can be used as supplementary input method only. All of them however provide a great opportunity to enhance user experience. 
 
 Adaptive web components are a great to save an unwanted web traffic. They also increase user experience because the web page produces less requests and loads faster. However the limitations also exist because many websites need custom elements and design. As a result the adaptive web components produce less interest than adaptive input methods, but are the necessary part of the Web.
 
