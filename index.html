@@ -153,7 +153,7 @@ Supervisor: Assoc. Professor Michal Čerňanský, Institute of Applied Informati
 
 <p>Almost every modern device contains a video camera. This is a great opportunity to introduce video motion to web applications. We can control web sites using motion gestures. We use a video camera stream and devide it into image frames. Then we can detect a website user in the each frame using a HSV filter. When we compare all pixels in two adjacent frames we get difference points. When we apply this comparision to multiple frames we can calculate a motion vector.</p>
 
-<p><img src="images/videomotion.png" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/janantala/beyond-adaptive-web-design/master/images/videomotion.png" alt=""></p>
 
 <p>We support 4 direction motion events: swipe from the left to the right, right to left, bottom to top and top to bottom. The experiment has been attended by hundreds of users. Using video motion detection we can enhance experience in websites and games. We can also detect device motion and orientation changes so it can be used as a supplementary input method to the accelerometer and gyroscope rotation. However we cannot take a full control over the webapp and need a proper ambient lighting. There can be detection issues in too dark and too bright scenes.</p>
 
@@ -164,7 +164,7 @@ Supervisor: Assoc. Professor Michal Čerňanský, Institute of Applied Informati
 
 <p>We have used the Mobile First principle to develop Google Maps and Youtube videos web components. So we make a default element static and pull in a static image. This approach saves a lot of web traffic and becasue of limited mobile data plans also user's money. We can then detect when it is appropriate to download the embedded map or to launch the native mobile application.</p>
 
-<p><img src="images/maps.png" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/janantala/beyond-adaptive-web-design/master/images/maps.png" alt=""></p>
 
 <p>By default we set an anchor to the location of the service website. When a user taps the component, the browser will try to open the native application where they can have a better experience. If the native experience is unavailable, the user is redirected to the service website, where they receive a full-screen experience. However, we do not always want to open the native application. We can download an embedded map or play the video directly after the tap. The user can interact with them directly in the web application so developers have to make a decision between these choices.</p>
 
